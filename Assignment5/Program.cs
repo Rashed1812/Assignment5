@@ -136,7 +136,7 @@ namespace Assignment5
             //{
             //    if (nums[i] > largest)
             //    {
-                   
+
             //        secondLargest = largest;
             //        largest = nums[i];
             //    }
@@ -148,6 +148,37 @@ namespace Assignment5
             //Console.WriteLine("The second largest element is: " + secondLargest);
 
             #endregion
+
+            #region 7.Consider an Array of Integer values with size N, having values as in this Example
+            
+            //Console.Write("Enter Number of Elements You Want To Get Sum All :");
+            //int.TryParse(Console.ReadLine(), out int n);
+
+            //int[] array = new int[n];
+            //Console.WriteLine("Enter the Numbers of the array:");
+            //for (int i = 0; i < n; i++)
+            //{
+            //    array[i] = int.Parse(Console.ReadLine());
+            //}
+
+            //int longestDistance = 0;
+            //for (int i = 0; i < n; i++)
+            //{
+            //    for (int j = i + 1; j < n; j++)
+            //    {
+            //        if (array[i] == array[j])
+            //        {
+            //            int distance = j - i;
+            //            if (distance > longestDistance)
+            //            {
+            //                longestDistance = distance;
+            //            }
+            //        }
+            //    }
+            //}
+            //Console.WriteLine("The longest distance between two equal cells is: " + longestDistance);
+            #endregion
         }
+
     }
 }
