@@ -73,7 +73,7 @@ namespace Assignment5
             //{
             //    array2[i] = Convert.ToInt32(Console.ReadLine());
             //}
-            
+
             //int[] result = new int[array1.Length + array2.Length];
             //for (int i = 0; i < array1.Length; i++)
             //{
@@ -88,6 +88,24 @@ namespace Assignment5
             //    Console.Write(number + " ");
             //}
 
+            #endregion
+
+            #region 4.Write a program in C# Sharp to count the frequency of each element of an array
+
+            #endregion
+
+            #region 5.Write a program in C# Sharp to find maximum and minimum element in an array
+            //Console.Write("Enter Number of Elements You Want To Get Max And Min: ");
+            //int.TryParse(Console.ReadLine(), out int elements);
+
+            //int[] nums = new int[elements];
+            //Console.WriteLine("Enter The Numbers Of Array: ");
+            //for (int i = 0; i < nums.Length; i++)
+            //{
+            //    nums[i] = Convert.ToInt32(Console.ReadLine());
+            //}
+            //Console.WriteLine($"Min Number In Array Is: {nums.Min()}");
+            //Console.WriteLine($"Max Number In Array Is: {nums.Max()}");
             #endregion
         }
     }
