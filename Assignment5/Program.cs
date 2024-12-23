@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics.CodeAnalysis;
+using System.Drawing;
 
 namespace Assignment5
 {
@@ -50,6 +51,42 @@ namespace Assignment5
             //    sum += nums[i] ;
             //}
             //Console.WriteLine($"Sum Of All Elements {sum}");
+
+            #endregion
+
+            #region 3.Write a program in C# Sharp to merge two arrays of the same size sorted in ascending order
+
+            //Console.Write("Enter Number of Elements You Want To Make 2 Arrays Same Size: ");
+            //int.TryParse(Console.ReadLine(), out int elements);
+            //if (elements == 0 || elements < 0) { Console.WriteLine("Invaled Number Of Elments");}
+
+            //int[] array1 = new int[elements];
+            //Console.WriteLine("Enter The Numbers Of First Array: ");
+            //for (int i = 0; i < array1.Length; i++)
+            //{
+            //    array1[i] = Convert.ToInt32(Console.ReadLine());
+            //}
+
+            //int[] array2 = new int[elements];
+            //Console.WriteLine("Enter The Numbers Of Second Array: ");
+            //for (int i = 0; i < array1.Length; i++)
+            //{
+            //    array2[i] = Convert.ToInt32(Console.ReadLine());
+            //}
+            
+            //int[] result = new int[array1.Length + array2.Length];
+            //for (int i = 0; i < array1.Length; i++)
+            //{
+            //    result[i] = array1[i];
+            //    result[array2.Length + i] = array2[i];
+            //}
+            //Array.Sort(result);
+
+            //Console.WriteLine("Merged 2 Arrays And sorted in ascending order:");
+            //foreach (int number in result)
+            //{
+            //    Console.Write(number + " ");
+            //}
 
             #endregion
         }
