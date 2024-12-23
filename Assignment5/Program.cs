@@ -107,6 +107,47 @@ namespace Assignment5
             //Console.WriteLine($"Min Number In Array Is: {nums.Min()}");
             //Console.WriteLine($"Max Number In Array Is: {nums.Max()}");
             #endregion
+
+            #region 6.Write a program in C# Sharp to find the second largest element in an array
+            //Console.Write("Enter Number of Elements You Want To Get Max And Min: ");
+            //int.TryParse(Console.ReadLine(), out int elements);
+
+            //int[] nums = new int[elements];
+            //Console.WriteLine("Enter The Numbers Of Array: ");
+            //for (int i = 0; i < nums.Length; i++)
+            //{
+            //    nums[i] = Convert.ToInt32(Console.ReadLine());
+            //}
+
+            //int largest, secondLargest;
+
+            //if (nums[0] > nums[1])
+            //{
+            //    largest = nums[0];
+            //    secondLargest = nums[1];
+            //}
+            //else
+            //{
+            //    largest = nums[1];
+            //    secondLargest = nums[0];
+            //}
+
+            //for (int i = 2; i < nums.Length; i++)
+            //{
+            //    if (nums[i] > largest)
+            //    {
+                   
+            //        secondLargest = largest;
+            //        largest = nums[i];
+            //    }
+            //    else if (nums[i] > secondLargest && nums[i] != largest)
+            //    {
+            //        secondLargest = nums[i];
+            //    }
+            //}
+            //Console.WriteLine("The second largest element is: " + secondLargest);
+
+            #endregion
         }
     }
 }
