@@ -183,7 +183,7 @@ namespace Assignment5
             //Console.Write("Enter a Words string: ");
             //string input = Console.ReadLine();
             //string[] words = input.Split(' ');
-            
+
             //for (int i = words.Length - 1; i >= 0; i--)
             //{
             //    if (i != words.Length - 1)
@@ -193,7 +193,44 @@ namespace Assignment5
             //    Console.Write(words[i]);
             //}
             #endregion
-        }
 
+            #region 10.Write a program to create two multidimensional arrays of same size. Accept values from the user and store them in first array. Now copy all the elements of the first array on second array and print second array
+            //Console.Write("Enter the number of rows: ");
+            //int rows = int.Parse(Console.ReadLine());
+
+            //Console.Write("Enter the number of columns: ");
+            //int cols = int.Parse(Console.ReadLine());
+
+            //int[,] Array1 = new int[rows, cols];
+            //int[,] Array2 = new int[rows, cols];
+
+            //Console.WriteLine("Enter the elements for the first array:");
+            //for (int i = 0; i < rows; i++)
+            //{
+            //    for (int j = 0; j < cols; j++)
+            //    {
+            //        Console.Write($"Enter element for position ({i}, {j}): ");
+            //        Array1[i, j] = int.Parse(Console.ReadLine());
+            //    }
+            //}
+
+            //for (int i = 0; i < rows; i++)
+            //{
+            //    for (int j = 0; j < cols; j++)
+            //    {
+            //        Array2[i, j] = Array1[i, j];
+            //    }
+            //}
+            //Console.WriteLine("The second array after copying elements from the first array:");
+            //for (int i = 0; i < rows; i++)
+            //{
+            //    for (int j = 0; j < cols; j++)
+            //    {
+            //        Console.Write(Array2[i, j] + "\t");
+            //    }
+            //    Console.WriteLine();
+            //}
+            #endregion
+        }
     }
 }
