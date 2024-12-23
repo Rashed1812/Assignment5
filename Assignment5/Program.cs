@@ -150,7 +150,7 @@ namespace Assignment5
             #endregion
 
             #region 7.Consider an Array of Integer values with size N, having values as in this Example
-            
+
             //Console.Write("Enter Number of Elements :");
             //int.TryParse(Console.ReadLine(), out int n);
 
@@ -177,6 +177,21 @@ namespace Assignment5
             //    }
             //}
             //Console.WriteLine("The longest distance between two equal cells is: " + longestDistance);
+            #endregion
+
+            #region 9.Given a list of space separated words, reverse the order of the words
+            //Console.Write("Enter a Words string: ");
+            //string input = Console.ReadLine();
+            //string[] words = input.Split(' ');
+            
+            //for (int i = words.Length - 1; i >= 0; i--)
+            //{
+            //    if (i != words.Length - 1)
+            //    {
+            //        Console.Write(" ");
+            //    }
+            //    Console.Write(words[i]);
+            //}
             #endregion
         }
 
