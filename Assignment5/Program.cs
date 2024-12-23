@@ -151,7 +151,7 @@ namespace Assignment5
 
             #region 7.Consider an Array of Integer values with size N, having values as in this Example
             
-            //Console.Write("Enter Number of Elements You Want To Get Sum All :");
+            //Console.Write("Enter Number of Elements :");
             //int.TryParse(Console.ReadLine(), out int n);
 
             //int[] array = new int[n];
